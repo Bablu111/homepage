@@ -1,0 +1,56 @@
+@media (min-width: 320px) and (max-width: 556px) {
+
+
+    #heading .logo {
+        padding: 7px;
+        text-align: center;
+    }
+    #heading .menu a {
+        font-size: 10px;
+        font-weight: 400px;
+        color: #fff;
+        margin: 0px 14px 0px 14px;
+    }
+    #heading .menu button {
+        width: 72px;
+        height: 28px;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #292024;
+        border: none;
+        color: #fff;
+        background-color: #FF1640;
+        border-radius: 10px;
+    }
+
+    #intro .text h3 {
+        color: #fff;
+        font-size: 48px;
+        font-weight: 800;
+    }
+    #slider .left {
+    
+        opacity: 0;
+    }
+    #slider .right {
+        
+        opacity: 0;
+    }
+    #slider .slide-card.slick-center .overlay {
+    
+        opacity: 0;
+        
+    }
+
+}
+
+@media (min-width: 557px) and (max-width: 2000px) {
+
+    #heading .menu .bar span {
+        color: #FFCC22;
+        font-size: 25px;
+        display: none;
+    }
+
+    
+}
